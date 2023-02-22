@@ -1,0 +1,61 @@
+@font-face {
+    src:url("scoreboard.ttf");
+    font-family:scoreboard;
+}
+
+body {
+    margin: 0;
+    background:#1B244A;
+    width:575px;
+    height:385px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;   
+}
+
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    text-align:center;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+h2, button{
+    font-family:scoreboard;
+}
+
+h2{
+    background:#080001;
+    color:#F94F6D;
+    text-align:center;
+    width:155px;
+    height:120px;
+    font-size:90px;
+    margin:0;
+    line-height:125px;
+}
+
+button{
+    background:#1B244A;
+    color:#9AABD8;
+    height:45px;
+    width:45px;
+    margin-top:25px;
+    margin-bottom:70px;
+    border:2px solid #9AABD8;
+    border-radius:4px;
+
+}
+
+
+.add-points-guest, .add-points-home{
+    display:flex;
+    justify-content: space-around
+}
+
+#reset-btn{
+    width:150px;
+}
